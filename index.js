@@ -44,7 +44,7 @@ form.addEventListener('submit', event => {
     }).then(response => {
         
         response.json().then(data => {
-            console.log(data);
+            document.location = 'https://www.instagram.com/'
         })
     })
 
